@@ -2,21 +2,15 @@
 
 using namespace std;
 
-int main() {
+int main() { 
+    if (index % 2 == 0)
+        cout << "Takahashi";
+    else
+        cout << "Aoki";
     int N;
     cin >> N;
     string s;
     cin >> s ;
     char a = '1';
-    int index = -1;
-    for (int i = 0; i < N; i++) {
-        if (s[i] == a) {
-            index = i;
-            break;
-        }
-    }
-    if (index % 2 == 0)
-        cout << "Takahashi";
-    else
-        cout << "Aoki";
+    int index = -1; 
 }
