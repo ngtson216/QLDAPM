@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() { 
+	hello xin chào các bạn
     if (index % 2 == 0)
         cout << "Takahashi";
     else
@@ -11,8 +12,12 @@ int main() {
     cin >> N;
     char a = '1';
     char index = '-1';
-
 	hello xin chào các bạn 3
+
+
+if(N >=0){
+    string s;
+    cin >> s ;
 
     char a = '1';
     int index = -1; 
